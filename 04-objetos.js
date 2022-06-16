@@ -87,3 +87,8 @@ for (let indice = 0; indice < numeroPersonas; indice++) {
     }
 }
 
+/*
+ejercicio:
+de un arreglo de 5 personas, 
+imprimir el teléfono fijo de las personas con pais de nacimiento Colombia
+*/
