@@ -4,10 +4,12 @@ function saludar() {
 }
 saludar(); //primera ejecución
 
-function saludarConNombre(nombre) {
+function saludarConNombre(nombre = "") {
     console.log(`hola ${nombre}!`);
 }
 saludarConNombre("Jesus"); //segunda ejecución
+console.log("saludarConNombre sin parámetros");
+saludarConNombre(); //segunda ejecución
 
 const variableSaludar = saludar;
 variableSaludar(); // tercera ejecución
