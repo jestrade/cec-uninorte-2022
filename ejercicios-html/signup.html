@@ -8,22 +8,31 @@
     <meta name="author" content="Jestrade">
     <script src="js/main.js"></script>
     <title>Twitter | Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <main>
-        <p><a href="index.html"><img src="assets/logo.svg" alt="Logo" /></a></p>
-        <p>My Twitter</p>
-        <h1>Create your account</h1>
-        <form>
-            <p><label>Name</label><input type="text" /></p>
-            <p><label>Username</label><input type="text" /></p>
-            <p><label>Email</label><input type="text" /></p>
-            <p><label>Password</label><input type="password" /></p>
-            <p><label>Password Confirmation</label><input type="password" /></p>
-            <p><button type="button">Sign Up</button></p>
-        </form>
-        <p>Already have an account? <a href="login.html">Login</a></p>
+    <main class="main">
+        <section class="container">
+            <p><a href="index.html"><img src="assets/logo.svg" alt="Logo" /></a></p>
+            <p class="subtitle">My Twitter</p>
+            <h1 class="title">Create your account</h1>
+            <form class="form">
+                <p class="paragraphSmall"><label class="label">Name</label><input type="text" class="input" /></p>
+                <p class="paragraphSmall"><label class="label">Username</label><input type="text" class="input" /></p>
+                <p class="paragraphSmall"><label class="label">Email</label><input type="text" class="input" /></p>
+                <p class="paragraphSmall"><label class="label">Password</label><input type="password" class="input" />
+                </p>
+                <p class="paragraphLarge"><label class="label">Password Confirmation</label><input type="password"
+                        class="input" /></p>
+                <p class="paragraphLarge"><button type="button" class="button">Sign Up</button></p>
+            </form>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </section>
     </main>
 </body>
 
