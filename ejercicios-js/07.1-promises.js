@@ -11,12 +11,17 @@ const getMovies = () => {
     });
 };
 
-console.log("inicio");
-getMovies()
-    .then(result => {
-        console.log(`las películas ${JSON.stringify(result)}`);
-    })
-    .catch(error => {
+const init = async () => {
+    console.log("inicio");
+    try {
+        const result = await getMovies();
+        console.log(`las películas son: ${JSON.stringify(result)}`);
+    } catch (error) {
         console.log(error);
-    });
-console.log("fin");
+    }
+
+    console.log("fin");
+};
+
+init();
+
